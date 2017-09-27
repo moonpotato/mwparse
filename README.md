@@ -25,7 +25,7 @@ example `%` which creates a block of centred text. In contrast,
 several features of Markdown remain unimplemented by MWParse due to
 the latter's focus on prose (e.g. lists and hyperlinking).
 
-Incidentally, this document is both valid Markdown and and MWParse.
+Incidentally, this document is both valid Markdown and MWParse.
 
 ## The Language
 
