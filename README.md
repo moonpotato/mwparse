@@ -44,7 +44,7 @@ fourth, if present (otherwise defaulting to "yes") specifies whether
 more blocks can be nested within a block of this type (e.g. in the
 default block.cfg, indents can nest but headings can't).
 
-By default, the innermost block then contains a <p> element into which
+By default, the innermost block then contains a p element into which
 the text is placed. This does not occur when a block is specified to
 not nest.
 
