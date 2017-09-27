@@ -64,3 +64,8 @@ the second column and the second with that in the third. The fourth
 column being "no" specifies no nesting, or all following tokens are
 ignored until the current token is matched (allowing something like
 the raw code segments of Markdown, for instance).
+
+## Sample File
+
+A sample file, entitled `sample.mw`, demonstrates both the syntactic
+structures allowed by MWParse, and the default set of tokens.
