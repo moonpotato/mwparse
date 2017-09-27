@@ -1,0 +1,42 @@
+# % Sample MWParse File
+
+## Subheading
+
+Note that both the headings and this paragraph are separated by a
+blank line. This is necessary.
+
+>> Now we create an @indented block@. Recall, only the first line
+   should have the block markers. My editor has kindly aligned the
+   paragraph to those markers, but that isn't necessary.
+>>
+>> We create a new paragraph block, but maintain the previous
+   indentation. The above line's block specifier must be a subset of
+   the first block specifier (in this case, that means `>>` or
+   nothing).
+>>
+>> % This block here is centred, as well, still within the main
+   indented block.
+
+***
+
+The above is an /asterism/, one of the default styles of section
+break. The other is just a straight ruled line.
+
+___
+
+>>> This is the most indented level.$
+Here we've used `$` to force line breaks,$
+but these need not be at$ the end of line themselves,$
+as seen here.
+
+***
+
+There are a number of symbol replacements aimed at simple typesetting
+as well. "Speech marks" automatically become left and right versions
+(and single, due to the author's British English upbringing --- use
+""double"" for double quotes, although this can be changed). Three
+hyphens --- em dash, two -- en. Ellipsis... ~Crossed out **bold**
+text.~
+
+% The default also handles changing < > and & to HTML entities. The
+  author recommends leaving this.

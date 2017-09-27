@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sample File</title>
+    <link rel="stylesheet" type="text/css" href="rules.css">
+  </head>
+  <body class="invert">
+      <h1>
+        Sample MWParse File
+      </h1>
+      <h2>
+        Subheading
+      </h2>
+      <p class="gap">
+        Note that both the headings and this paragraph are separated by a
+        blank line. This is necessary.
+      </p>
+      <div class="indent i2">
+        <p class="gap">
+          Now we create an <span class="toupper">indented block</span>. Recall, only the first line
+          should have the block markers. My editor has kindly aligned the
+          paragraph to those markers, but that isn&rsquo;t necessary.
+        </p>
+        <p class="gap">
+          We create a new paragraph block, but maintain the previous
+          indentation. The above line&rsquo;s block specifier must be a subset of
+          the first block specifier (in this case, that means >> or
+          nothing).
+        </p>
+        <div class="centre">
+          <p class="gap">
+            This block here is centred, as well, still within the main
+            indented block.
+          </p>
+        </div>
+      </div>
+      <p class="gap">
+        <hr class="ast">
+      </p>
+      <p class="gap">
+        The above is an <i>asterism</i>, one of the default styles of section
+        break. The other is just a straight ruled line.
+      </p>
+      <p class="gap">
+        <hr>
+      </p>
+      <div class="indent i3">
+        <p class="gap">
+          This is the most indented level.<br>
+          Here we&rsquo;ve used $ to force line breaks,<br>
+          but these need not be at<br> the end of line themselves,<br>
+          as seen here.
+        </p>
+      </div>
+      <p class="gap">
+        <hr class="ast">
+      </p>
+      <p class="gap">
+        There are a number of symbol replacements aimed at simple typesetting
+        as well. &lsquo;Speech marks&rsquo; automatically become left and right versions
+        (and single, due to the author&rsquo;s British English upbringing &mdash; use
+        &ldquo;double&rdquo; for double quotes, although this can be changed). Three
+        hyphens &mdash; em dash, two &ndash; en. Ellipsis&hellip; <del>Crossed out <strong>bold</strong>
+        text.</del>
+      </p>
+      <div class="centre">
+        <p class="gap">
+          The default also handles changing &lt; &gt; and &amp; to HTML entities. The
+          author recommends leaving this.
+        </p>
+      </div>
+  </body>
+</html>
