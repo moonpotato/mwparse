@@ -69,3 +69,7 @@ the raw code segments of Markdown, for instance).
 
 A sample file, entitled `sample.mw`, demonstrates both the syntactic
 structures allowed by MWParse, and the default set of tokens.
+
+A compilation of the above was done with `mwparse.py -b block.cfg -l
+inline.cfg -s rules.css -i -t "Sample File" "sample.mw"`; the result of
+which is saved as "sample.mw.html
